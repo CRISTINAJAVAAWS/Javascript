@@ -1,0 +1,2 @@
+var meses = ['Enero','Febrero','Marzo', 'Abril', 'Mayo', 'Junio','Julio','Agosto', 'Septiembre','Octubre','Noviembre','Diciembre'];
+console.log(' Mis meses:',meses[0],',',meses[6],',',meses[10],',',meses[meses.length-1]);
