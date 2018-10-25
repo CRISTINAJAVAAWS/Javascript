@@ -16,5 +16,13 @@
     }
     
     //modificacion perritos como hermanos: perrito i hermano del perrito i-1 excepto perrito 1 que no tiene hermanos.
-   
-    
+ 
+for (let index = 0; index <20; index++) {
+    if(index == 0) {
+
+    console.log ('el perro' , (index+1), 'no tiene hermanos')
+    } else {
+    console.log('perrito', (index+1), 'es hermano de',(index - 1))
+
+   }
+}
