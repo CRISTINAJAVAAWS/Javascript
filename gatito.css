@@ -1,0 +1,6 @@
+header>div{height: 100px;background: whitesmoke }
+header>nav{height: 100px;background:grey }
+
+section > div {border:  2px solid blue;height: 100px}
+article{height: 100px;background: yellow;}
+footer{height: 100px; background: blue;}
