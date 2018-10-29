@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial', 'Arial', sans-serif;
+}
+
+    ul > li {
+    list-style: None;
+    vertical-align: top;
+    border-bottom: 2px solid 
+    padding: 10px;
+    }
+    ul > li img{
+        width: 40px;}
+
+    ul >li>*{ 
+        display: inline-block;}
+
+        .saluda {background: green;
+            color: red
+            padding: 20px }
+            .borra {background: red;
+                color: white
+                padding: 20px }
+                

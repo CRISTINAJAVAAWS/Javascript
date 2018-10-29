@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mis amigos</title>
+    <link rel="stylesheet" href="./amigos.css">
+</head>
+
+<body>
+    <h1>Mis amigos</h1>
+    <ul>
+        <li id="li1">
+            <img src="./amigochis.jfif" alt="">
+            <p id="p1" class="amigoname">Este es tu amigo: Amigo1</p>
+            <button data-name="Amigo1" data-idp="p2"  
+            class="saluda"> Saludar</button>
+            <button class="borra"data-li="li1">borrar</button>
+        </li>
+        <li id="li2">
+            <img src="./amigo.jfif" alt="">
+            <p id="p2" class="amigoname">Este es tu amigo: Amigo2</p>
+            <button data-name="Amigo2" data-idp="p2" 
+            class="saluda"> Saludar </button>
+            <button class="borra" data-li="li2">borrar</button>
+        </li>
+        <li id="li3">
+            <img src="./nenas.jfif" alt="">
+            <p id="p3" class="amigoname">Este es tu amigo:  Amigo3</p>
+            <button data-name="Amigo3" data-idp="p3" 
+            class="saluda"> Saludar</button>
+            <button class="borra" data-li="li3">borrar</button>
+        </li>
+        <li id="li4">
+            <img src="./nenas.jfif" alt="">
+            <p id="p4" class="amigoname">Este es tu amigo: Amigo4</p>
+            <button data-name="Amigo4" data-idp="p4" 
+            class="saluda"> Saludar</button>
+            <button class="borra" data-li="li4">borrar</button>
+        </li>
+    </ul>
+    <input type="button" value="Borra" onclick="borra()" />
+    <div id="borra">test</div>
+</body>
+
+<script src="./javascript.js"></script>
+
+</html>
