@@ -13,3 +13,12 @@ let listaUl=document.getElementById('listaAmigos');
 for (let index = 0; index < amigos.length; index++) {
     listaUl.innerHTML += '<li>'+amigos[index].name+'</li>';
 }
+listaUl.innerHTML += `<li>
+<span>${amigos[index].name}</span>
+<span>${amigos[index].name}</span>
+</li>`;
+
+spa
+//si metes html , el ordenador parsea le metes un <li> y te vale.
+//span separacion <span> pero es mejor usar plantilas ES6. se usan comillas que son tildes.
+//$ sintaxis plantillas javascript, valor dinamico valor de una vairable. El valor tiene que reemplazar su valor.
