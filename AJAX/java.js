@@ -1,8 +1,9 @@
-$.ajax({
-    url: "https://www.mocky.io/",
-    context: document.body
-  }).done(function (porjemplodata) {
-   console.log(porejemplodata);
-  });
+$('#cargarbtn').click(function () {
+    $.ajax({
+        url: "https://www.mocky.io/",
+    }).done(function (porjemplodata) {
+        console.log(porejemplodata);
+    });
+});
 
   //jquery
