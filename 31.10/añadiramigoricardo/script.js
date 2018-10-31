@@ -59,7 +59,8 @@ function addAmigoHtml(paramElemid, unAmigo) {
 
 
     $(paramElemid).append(htmlAmigos);
-    asociaClick('#amigosface .saludaBtn');
+    asociaClick(paramElemid+' .saludaBtn');
+    //coge el div y al final añade el contenido que le indico.
 
 }
 
